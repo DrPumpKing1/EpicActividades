@@ -51,6 +51,9 @@ public class GapObject : MonoBehaviour
         isFilled = true;
         if(assignedPlanet != null) assignedPlanet.gameObject.SetActive(false);
         ResolveVisual();
+
+        ActivateAllOrbits.Instance.Check();
+        ChangeActiveGap.Instance.ActivateRandomGap();
     }
 
     private void CheckFillGap()
@@ -82,5 +85,15 @@ public class GapObject : MonoBehaviour
             filledGap.SetActive(false);
             activeGap.SetActive(false);
         }
+    }
+
+    public bool GetFilled()
+    {
+        return isFilled; 
+    }
+
+    public bool GetActive()
+    {
+        return isActive; 
     }
 }

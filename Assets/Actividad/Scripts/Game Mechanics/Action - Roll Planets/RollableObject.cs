@@ -56,6 +56,7 @@ public class RollableObject : MonoBehaviour
     public void StartRolling()
     {
         isRolling = true;
+        _rigidbody.isKinematic = false;
         interactable.gameObject.SetActive(false);
     }
 
@@ -84,6 +85,7 @@ public class RollableObject : MonoBehaviour
     public void EndRolling()
     {
         isRolling = false;
+        _rigidbody.isKinematic = false;
         interactable.gameObject.SetActive(true);
     }
 
