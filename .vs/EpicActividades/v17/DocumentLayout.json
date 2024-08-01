@@ -3,7 +3,15 @@
   "WorkspaceRootPath": "C:\\Users\\salva\\Documents\\Github\\EpicActividades\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{09147BE4-CBBC-105F-9B8F-CDC0965FD80B}|AssemblySistemaSolar.csproj|c:\\users\\salva\\documents\\github\\epicactividades\\assets\\actividad\\scripts\\game mechanics\\core mechanics\\action - roll planets\\rollableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{09147BE4-CBBC-105F-9B8F-CDC0965FD80B}|AssemblySistemaSolar.csproj|c:\\users\\salva\\documents\\github\\epicactividades\\assets\\actividad\\scripts\\game mechanics\\core mechanics\\rule - win condition\\activateallorbits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09147BE4-CBBC-105F-9B8F-CDC0965FD80B}|AssemblySistemaSolar.csproj|solutionrelative:assets\\actividad\\scripts\\game mechanics\\core mechanics\\rule - win condition\\activateallorbits.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09147BE4-CBBC-105F-9B8F-CDC0965FD80B}|AssemblySistemaSolar.csproj|C:\\Users\\salva\\Documents\\Github\\EpicActividades\\assets\\actividad\\scripts\\game mechanics\\core mechanics\\object - orbits\\objectorbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09147BE4-CBBC-105F-9B8F-CDC0965FD80B}|AssemblySistemaSolar.csproj|solutionrelative:assets\\actividad\\scripts\\game mechanics\\core mechanics\\object - orbits\\objectorbit.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09147BE4-CBBC-105F-9B8F-CDC0965FD80B}|AssemblySistemaSolar.csproj|C:\\Users\\salva\\Documents\\Github\\EpicActividades\\assets\\actividad\\scripts\\game mechanics\\core mechanics\\action - roll planets\\rollableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{09147BE4-CBBC-105F-9B8F-CDC0965FD80B}|AssemblySistemaSolar.csproj|solutionrelative:assets\\actividad\\scripts\\game mechanics\\core mechanics\\action - roll planets\\rollableobject.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -26,11 +34,36 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 1,
+              "Title": "ObjectOrbit.cs",
+              "DocumentMoniker": "C:\\Users\\salva\\Documents\\Github\\EpicActividades\\Assets\\Actividad\\Scripts\\Game Mechanics\\Core Mechanics\\Object - Orbits\\ObjectOrbit.cs",
+              "RelativeDocumentMoniker": "Assets\\Actividad\\Scripts\\Game Mechanics\\Core Mechanics\\Object - Orbits\\ObjectOrbit.cs",
+              "ToolTip": "C:\\Users\\salva\\Documents\\Github\\EpicActividades\\Assets\\Actividad\\Scripts\\Game Mechanics\\Core Mechanics\\Object - Orbits\\ObjectOrbit.cs",
+              "RelativeToolTip": "Assets\\Actividad\\Scripts\\Game Mechanics\\Core Mechanics\\Object - Orbits\\ObjectOrbit.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAAAgwAkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T16:56:20.104Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ActivateAllOrbits.cs",
+              "DocumentMoniker": "C:\\Users\\salva\\Documents\\Github\\EpicActividades\\Assets\\Actividad\\Scripts\\Game Mechanics\\Core Mechanics\\Rule - Win Condition\\ActivateAllOrbits.cs",
+              "RelativeDocumentMoniker": "Assets\\Actividad\\Scripts\\Game Mechanics\\Core Mechanics\\Rule - Win Condition\\ActivateAllOrbits.cs",
+              "ToolTip": "C:\\Users\\salva\\Documents\\Github\\EpicActividades\\Assets\\Actividad\\Scripts\\Game Mechanics\\Core Mechanics\\Rule - Win Condition\\ActivateAllOrbits.cs",
+              "RelativeToolTip": "Assets\\Actividad\\Scripts\\Game Mechanics\\Core Mechanics\\Rule - Win Condition\\ActivateAllOrbits.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAA9wEEAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-08-01T16:56:05.148Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "ChangeActiveGap.cs",
               "DocumentMoniker": "C:\\Users\\salva\\Documents\\Github\\EpicActividades\\Assets\\Actividad\\Scripts\\Game Mechanics\\Core Mechanics\\Rule - Change Active Gap\\ChangeActiveGap.cs",
               "RelativeDocumentMoniker": "Assets\\Actividad\\Scripts\\Game Mechanics\\Core Mechanics\\Rule - Change Active Gap\\ChangeActiveGap.cs",
@@ -42,7 +75,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "RollingInteractable.cs",
               "DocumentMoniker": "C:\\Users\\salva\\Documents\\Github\\EpicActividades\\Assets\\Actividad\\Scripts\\Game Mechanics\\Core Mechanics\\Action - Roll Planets\\RollingInteractable.cs",
               "RelativeDocumentMoniker": "Assets\\Actividad\\Scripts\\Game Mechanics\\Core Mechanics\\Action - Roll Planets\\RollingInteractable.cs",
@@ -54,7 +87,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "RollableObject.cs",
               "DocumentMoniker": "C:\\Users\\salva\\Documents\\Github\\EpicActividades\\Assets\\Actividad\\Scripts\\Game Mechanics\\Core Mechanics\\Action - Roll Planets\\RollableObject.cs",
               "RelativeDocumentMoniker": "Assets\\Actividad\\Scripts\\Game Mechanics\\Core Mechanics\\Action - Roll Planets\\RollableObject.cs",
@@ -62,12 +95,11 @@
               "RelativeToolTip": "Assets\\Actividad\\Scripts\\Game Mechanics\\Core Mechanics\\Action - Roll Planets\\RollableObject.cs",
               "ViewState": "AQIAAG4AAAAAAAAAAAAAwHIAAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-08-01T02:30:36.079Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-01T02:30:36.079Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "DissapearPedestal.cs",
               "DocumentMoniker": "C:\\Users\\salva\\Documents\\Github\\EpicActividades\\Assets\\Actividad\\Scripts\\Game Mechanics\\Secondary Mechanics\\Object - Pedestal\\DissapearPedestal.cs",
               "RelativeDocumentMoniker": "Assets\\Actividad\\Scripts\\Game Mechanics\\Secondary Mechanics\\Object - Pedestal\\DissapearPedestal.cs",

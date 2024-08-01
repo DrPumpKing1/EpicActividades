@@ -34,12 +34,14 @@ public class ObjectOrbit : MonoBehaviour
         Vector3 distanceVector = direction;
         distanceVector.y = 0f;
         float distance = distanceVector.magnitude;
-        float height = transform.position.y;
+        float height = orbitAround.position.y;
 
         float newPositionXComponent =  Mathf.Cos(angle * Mathf.Deg2Rad) * distance;
         float newPositionZComponent =  Mathf.Sin(angle * Mathf.Deg2Rad) * distance;
+        Vector3 orbitAroundPositionFlatten = orbitAround.position;
+        orbitAroundPositionFlatten.y = 0f;
 
-        transform.position = new Vector3(newPositionXComponent, height, newPositionZComponent);
+        transform.position = new Vector3(newPositionXComponent, height, newPositionZComponent) + orbitAroundPositionFlatten;
     }
 
     public void ToggleActive(bool isActive)

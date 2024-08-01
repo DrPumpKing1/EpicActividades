@@ -10,6 +10,10 @@ public class ActivateAllOrbits : MonoBehaviour
     private List<ObjectOrbit> allOrbits;
     private List<GapObject> allGaps;
 
+    [Header("Orbit Center Elevation")]
+    [SerializeField] private float orbitCenterElevation;
+    [SerializeField] private Transform orbitCenter;
+
     [Header("States")]
     [SerializeField] private bool winCondition;
 
@@ -59,5 +63,6 @@ public class ActivateAllOrbits : MonoBehaviour
     private void ActivateOrbits()
     {
         allOrbits.ForEach(x => x.ToggleActive(true));
+        orbitCenter.transform.position += Vector3.up * orbitCenterElevation;
     }
 }
