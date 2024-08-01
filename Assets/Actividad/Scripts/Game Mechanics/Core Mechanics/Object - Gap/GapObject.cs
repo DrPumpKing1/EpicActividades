@@ -19,13 +19,7 @@ public class GapObject : MonoBehaviour
 
     private void Start()
     {
-        if(isActive == true)
-        {
-            ActivateGap();
-        } else
-        {
-            if(assignedPlanet != null) assignedPlanet.GetInteractable().gameObject.SetActive(false);
-        }
+        if (assignedPlanet != null) assignedPlanet.GetInteractable().ToggleActive(isActive);
 
         ResolveVisual();
     }
@@ -40,7 +34,7 @@ public class GapObject : MonoBehaviour
         if (isActive == true || isFilled == true) return;
 
         isActive = true;
-        if(assignedPlanet != null) assignedPlanet.GetInteractable().gameObject.SetActive(true);
+        if(assignedPlanet != null) assignedPlanet.GetInteractable().ToggleActive(true);
         ResolveVisual();
     }
 

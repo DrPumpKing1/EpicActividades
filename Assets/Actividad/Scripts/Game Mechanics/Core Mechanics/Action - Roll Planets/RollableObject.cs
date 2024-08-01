@@ -56,7 +56,6 @@ public class RollableObject : MonoBehaviour
     public void StartRolling()
     {
         isRolling = true;
-        _rigidbody.isKinematic = false;
         interactable.gameObject.SetActive(false);
     }
 
@@ -85,7 +84,6 @@ public class RollableObject : MonoBehaviour
     public void EndRolling()
     {
         isRolling = false;
-        _rigidbody.isKinematic = false;
         interactable.gameObject.SetActive(true);
     }
 
@@ -111,7 +109,7 @@ public class RollableObject : MonoBehaviour
 
     private void GroundCheck()
     {
-        isGrounded = Physics.OverlapSphere(transform.position - Vector3.up * .05f, .05f).Length > 0;
+        isGrounded = Physics.OverlapSphere(transform.position - Vector3.up * .05f, .01f).Length > 0f;
     }
 
     private void CalculateGravity()
@@ -133,7 +131,7 @@ public class RollableObject : MonoBehaviour
 
         Vector3 velocity = movementRollComponent + movementGravityComponent;
 
-        _rigidbody.velocity = velocity;
+        _rigidbody.AddForce(velocity, ForceMode.Acceleration);
     }
 
     public RollingInteractable GetInteractable()

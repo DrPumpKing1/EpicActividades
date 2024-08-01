@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cfc6e7de1a6949d4590a72c8b1e0feac, type: 3}
-  m_Name: Test 2
+  m_Name: Venus
   m_EditorClassIdentifier: 
-  rollingRotationalSpeed: 180
-  rollingRotationMultiplier: 1
-  rollingSpeed: 5
-  rollingAcceleration: 5
-  rollingFriction: 1
-  objectMass: 1.5
-  objectRadius: 1
+  rollingRotationalSpeed: 90
+  rollingRotationMultiplier: 3
+  rollingSpeed: 3.5
+  rollingAcceleration: 2
+  rollingFriction: 2
+  objectMass: 7.5
+  objectRadius: 0.7

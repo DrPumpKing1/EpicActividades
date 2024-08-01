@@ -10,12 +10,12 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: cfc6e7de1a6949d4590a72c8b1e0feac, type: 3}
-  m_Name: Test 1
+  m_Name: Mercurio
   m_EditorClassIdentifier: 
-  rollingRotationalSpeed: 45
-  rollingRotationMultiplier: 1
-  rollingSpeed: 2.5
-  rollingAcceleration: 2.5
-  rollingFriction: 1
-  objectMass: 5
-  objectRadius: 1
+  rollingRotationalSpeed: 135
+  rollingRotationMultiplier: 2
+  rollingSpeed: 7.5
+  rollingAcceleration: 3.5
+  rollingFriction: 0.65
+  objectMass: 2
+  objectRadius: 0.5
