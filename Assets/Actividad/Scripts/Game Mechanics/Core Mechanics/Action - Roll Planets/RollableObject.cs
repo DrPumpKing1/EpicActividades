@@ -5,6 +5,7 @@ using UnityEngine;
 public class RollableObject : MonoBehaviour
 {
     private const float MIN_VELOCITY = .25f;
+    private const float GRAVITY_SPEED = -5f;
 
     public RolllableData data;
     [SerializeField] private RollingInteractable interactable;
@@ -13,8 +14,8 @@ public class RollableObject : MonoBehaviour
     [SerializeField] private bool isRolling;
     [SerializeField] private bool isGrounded;
     private bool isMoveFrameFlag = false;
-    private Vector3 movementGravityComponent = Vector3.zero;
     private Vector3 movementRollComponent = Vector3.zero;
+    private Vector3 movementGravityComponent = Vector3.zero;
 
     [Header("Components - Animation")]
     [SerializeField] private GameObject rollingGameObject;
@@ -56,6 +57,7 @@ public class RollableObject : MonoBehaviour
     public void StartRolling()
     {
         isRolling = true;
+        _rigidbody.isKinematic = false;
         interactable.gameObject.SetActive(false);
     }
 
@@ -109,29 +111,29 @@ public class RollableObject : MonoBehaviour
 
     private void GroundCheck()
     {
-        isGrounded = Physics.OverlapSphere(transform.position - Vector3.up * .05f, .01f).Length > 0f;
+        isGrounded = Physics.Raycast(transform.position - Vector3.up * .05f, -Vector3.up,.05f);
     }
 
     private void CalculateGravity()
     {
-        if (isGrounded == true) return;
+        if (isGrounded) return;
 
-        movementGravityComponent = Vector3.up * Physics.gravity.y;
+        movementGravityComponent = Vector3.up * GRAVITY_SPEED;
     }
 
     private void ResetMovementComponents()
     {
-        movementGravityComponent = Vector3.zero;
         movementRollComponent = Vector3.zero;
+        movementGravityComponent = Vector3.zero;
     }
 
     private void Move()
     {
-        if(movementGravityComponent == Vector3.zero && movementRollComponent == Vector3.zero) return;
+        if (movementRollComponent == Vector3.zero && movementGravityComponent == Vector3.zero) return;
 
         Vector3 velocity = movementRollComponent + movementGravityComponent;
 
-        _rigidbody.AddForce(velocity, ForceMode.Acceleration);
+        _rigidbody.velocity = velocity;
     }
 
     public RollingInteractable GetInteractable()
