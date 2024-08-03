@@ -9751,7 +9751,6 @@ Transform:
   - {fileID: 122212925}
   - {fileID: 409037331}
   - {fileID: 373237998}
-  - {fileID: 1724027412}
   - {fileID: 1083962800}
   - {fileID: 617955513}
   m_Father: {fileID: 0}
