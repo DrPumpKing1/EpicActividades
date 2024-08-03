@@ -5,7 +5,7 @@ using UnityEngine;
 
 public class PedestalInteraction : MonoBehaviour
 {
-    private const float DESCRIPTION_MESSAGE_DURATION = 4f;
+    private const float DESCRIPTION_MESSAGE_DURATION = 6f;
 
     [TextArea, SerializeField] private string planetDescription;
 

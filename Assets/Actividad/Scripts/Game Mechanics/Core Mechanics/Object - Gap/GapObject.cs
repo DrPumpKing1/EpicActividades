@@ -56,7 +56,7 @@ public class GapObject : MonoBehaviour
 
         float distanceToAssignedPlanet = Vector3.Distance(transform.position, assignedPlanet.transform.position);
 
-        if (distanceToAssignedPlanet <= fillGapRadius)
+        if (distanceToAssignedPlanet <= fillGapRadius + assignedPlanet.data.objectRadius)
         {
             FillGap();
         }

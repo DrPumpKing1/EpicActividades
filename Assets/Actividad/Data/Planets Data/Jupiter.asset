@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Jupiter
   m_EditorClassIdentifier: 
   rollingRotationalSpeed: 90
-  rollingRotationMultiplier: 3
-  rollingSpeed: 3.5
-  rollingAcceleration: 2
-  rollingFriction: 2
-  objectMass: 7.5
+  rollingRotationMultiplier: 3.5
+  rollingSpeed: 6
+  rollingAcceleration: 4
+  rollingFriction: 1.5
+  objectMass: 6
   objectRadius: 1

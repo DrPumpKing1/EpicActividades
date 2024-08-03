@@ -12,10 +12,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfc6e7de1a6949d4590a72c8b1e0feac, type: 3}
   m_Name: Neptuno
   m_EditorClassIdentifier: 
-  rollingRotationalSpeed: 90
-  rollingRotationMultiplier: 3
-  rollingSpeed: 3.5
+  rollingRotationalSpeed: 180
+  rollingRotationMultiplier: 2
+  rollingSpeed: 2.5
   rollingAcceleration: 2
-  rollingFriction: 2
-  objectMass: 7.5
+  rollingFriction: 1
+  objectMass: 4.5
   objectRadius: 0.7

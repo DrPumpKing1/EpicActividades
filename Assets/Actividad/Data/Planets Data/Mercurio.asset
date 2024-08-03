@@ -12,8 +12,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: cfc6e7de1a6949d4590a72c8b1e0feac, type: 3}
   m_Name: Mercurio
   m_EditorClassIdentifier: 
-  rollingRotationalSpeed: 135
-  rollingRotationMultiplier: 2
+  rollingRotationalSpeed: 90
+  rollingRotationMultiplier: 1
   rollingSpeed: 7.5
   rollingAcceleration: 3.5
   rollingFriction: 0.65

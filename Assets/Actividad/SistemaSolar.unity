@@ -990,7 +990,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3eaab0d6960751c4a8a264b5b6f51272, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planetDescription: Descripcion Tierra
+  planetDescription: La Tierra es el hogar de los humanos y muchos otros seres vivos.
+    Su aire lleno de oxigeno y el agua de sus oceanos propician la vida en su superficie.
 --- !u!1001 &122212924
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -1756,7 +1757,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3eaab0d6960751c4a8a264b5b6f51272, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planetDescription: Descripcion Saturno
+  planetDescription: 'Casi tan grande como Jupiter, Saturno va cargada de adornos
+    gracias a su intensa gravedad: 7 anillos y mas de 50 lunas'
 --- !u!1 &219304094
 GameObject:
   m_ObjectHideFlags: 0
@@ -7203,7 +7205,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3eaab0d6960751c4a8a264b5b6f51272, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planetDescription: Descripcion Neptuno
+  planetDescription: Neptuno, el segundo de los gigantes de hielo, es oscuro, frio
+    y regido por vientos supersonicos. Es el planeta mas distante del sistema solar.
 --- !u!1 &259149926
 GameObject:
   m_ObjectHideFlags: 0
@@ -9536,7 +9539,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   orbitAround: {fileID: 337159702}
-  orbitSpeedAnglePerSecond: 45
+  orbitSpeedAnglePerSecond: 5
   orbitDirection: -1
   isActive: 0
 --- !u!114 &499871107
@@ -9554,7 +9557,7 @@ MonoBehaviour:
   assignedPlanet: {fileID: 1295872670}
   isActive: 0
   isFilled: 0
-  fillGapRadius: 1.75
+  fillGapRadius: 1
   activeGap: {fileID: 2127636733}
   filledGap: {fileID: 1413868310}
 --- !u!1 &500063557
@@ -10577,7 +10580,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   orbitAround: {fileID: 337159702}
-  orbitSpeedAnglePerSecond: 30
+  orbitSpeedAnglePerSecond: 180
   orbitDirection: -1
   isActive: 0
 --- !u!1 &643441899
@@ -10968,7 +10971,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3eaab0d6960751c4a8a264b5b6f51272, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planetDescription: Descripcion Mercurio
+  planetDescription: Mercirio el menor de los planetas rocosos y es el que viaja
+    mas rapido a lo largo del espacio.
 --- !u!1 &726591247
 GameObject:
   m_ObjectHideFlags: 0
@@ -12993,7 +12997,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   orbitAround: {fileID: 337159702}
-  orbitSpeedAnglePerSecond: 45
+  orbitSpeedAnglePerSecond: 22.5
   orbitDirection: -1
   isActive: 0
 --- !u!114 &1067455277
@@ -13011,7 +13015,7 @@ MonoBehaviour:
   assignedPlanet: {fileID: 1454765677}
   isActive: 0
   isFilled: 0
-  fillGapRadius: 1.5
+  fillGapRadius: 1
   activeGap: {fileID: 1638353631}
   filledGap: {fileID: 701499764}
 --- !u!1001 &1083962799
@@ -13361,7 +13365,7 @@ MonoBehaviour:
   assignedPlanet: {fileID: 1223197915}
   isActive: 1
   isFilled: 0
-  fillGapRadius: 1.5
+  fillGapRadius: 1
   activeGap: {fileID: 726591247}
   filledGap: {fileID: 84607875}
 --- !u!1 &1123834169
@@ -15038,7 +15042,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   orbitAround: {fileID: 337159702}
-  orbitSpeedAnglePerSecond: 45
+  orbitSpeedAnglePerSecond: 15
   orbitDirection: -1
   isActive: 0
 --- !u!114 &1337552667
@@ -15056,7 +15060,7 @@ MonoBehaviour:
   assignedPlanet: {fileID: 896581106}
   isActive: 0
   isFilled: 0
-  fillGapRadius: 1.75
+  fillGapRadius: 1
   activeGap: {fileID: 1446310472}
   filledGap: {fileID: 932567540}
 --- !u!1 &1364630558
@@ -16985,7 +16989,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3eaab0d6960751c4a8a264b5b6f51272, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planetDescription: Descripcion Venus
+  planetDescription: Despues del Sol y la Luna, el mas brillante del firmamento,
+    Venus es el planeta mas cercano a los terricolas.
 --- !u!1 &1550100603
 GameObject:
   m_ObjectHideFlags: 0
@@ -17019,7 +17024,7 @@ MonoBehaviour:
   assignedPlanet: {fileID: 1925346195}
   isActive: 0
   isFilled: 0
-  fillGapRadius: 1.5
+  fillGapRadius: 1
   activeGap: {fileID: 1513398528}
   filledGap: {fileID: 749397253}
 --- !u!4 &1550100605
@@ -17052,7 +17057,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   orbitAround: {fileID: 337159702}
-  orbitSpeedAnglePerSecond: 45
+  orbitSpeedAnglePerSecond: 90
   orbitDirection: -1
   isActive: 0
 --- !u!1 &1554651635
@@ -17138,7 +17143,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   orbitAround: {fileID: 337159702}
-  orbitSpeedAnglePerSecond: 45
+  orbitSpeedAnglePerSecond: 1
   orbitDirection: -1
   isActive: 0
 --- !u!114 &1573506551
@@ -17156,7 +17161,7 @@ MonoBehaviour:
   assignedPlanet: {fileID: 1515275811}
   isActive: 0
   isFilled: 0
-  fillGapRadius: 1.5
+  fillGapRadius: 1
   activeGap: {fileID: 823144124}
   filledGap: {fileID: 64877017}
 --- !u!1 &1575383435
@@ -17610,7 +17615,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   orbitAround: {fileID: 337159702}
-  orbitSpeedAnglePerSecond: 45
+  orbitSpeedAnglePerSecond: 2.5
   orbitDirection: -1
   isActive: 0
 --- !u!114 &1745115880
@@ -17628,7 +17633,7 @@ MonoBehaviour:
   assignedPlanet: {fileID: 557699559}
   isActive: 0
   isFilled: 0
-  fillGapRadius: 1.5
+  fillGapRadius: 1
   activeGap: {fileID: 1123834169}
   filledGap: {fileID: 219411442}
 --- !u!1 &1757931156
@@ -17863,7 +17868,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3eaab0d6960751c4a8a264b5b6f51272, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planetDescription: Descripcion Marte
+  planetDescription: Marte, el planeta rojo, en algun momento se creyo que pudo haber
+    vida en marte, pero por hoy es inhospito, rocoso, frio y seco
 --- !u!1 &1824835402
 GameObject:
   m_ObjectHideFlags: 0
@@ -18508,7 +18514,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3eaab0d6960751c4a8a264b5b6f51272, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planetDescription: Descripcion Jupiter
+  planetDescription: 'Jupiter el mas grande del sitema solar, su dia dura apena 10
+    horasa causa de los fuertes vientos que se producen en su atmosfera. '
 --- !u!1 &1908231769
 GameObject:
   m_ObjectHideFlags: 0
@@ -19254,7 +19261,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3eaab0d6960751c4a8a264b5b6f51272, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  planetDescription: Descripcion Urano
+  planetDescription: Urano, el primero de los gigantes de hielo en ser descubierto,
+    es el segundo planeta menos denso del sistema solar
 --- !u!1 &2011062179
 GameObject:
   m_ObjectHideFlags: 0
@@ -19835,12 +19843,17 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   monologue:
-  - messageText: Monk Message 1
+  - messageText: Que bueno que llegaste oficial de la federacion galactica. Tenemos
+      problemas en el templo solar
     durationSeconds: 4
-  - messageText: Monk Message 2
+  - messageText: Los planetas desparecieron y ya no funciona el calendario
     durationSeconds: 4
-  - messageText: Monk Message 3
+  - messageText: Sin el calendario no podremos organizar bien nuestras actividades
+      en el planeta
     durationSeconds: 4
+  - messageText: Los repuestos se encuentran subiendo la rampa. Tienes que rodarlos
+      de vuelta a sus posiciones originales
+    durationSeconds: 6
   timeBetweenMessages: 0.65
   interactable: {fileID: 2095138560}
   isTalking: 0
@@ -19890,7 +19903,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7a1c437d99c9a4616adbe21f3ffa0e18, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  interactText: Sacerdote Alien
+  interactText: Amigo alien
   textFontOverride:
     overrideFont: 0
     font: {fileID: 0}
