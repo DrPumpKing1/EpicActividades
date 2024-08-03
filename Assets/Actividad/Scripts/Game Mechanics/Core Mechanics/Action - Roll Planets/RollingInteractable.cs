@@ -6,7 +6,7 @@ using UnityEngine;
 public class RollingInteractable : MonoBehaviour
 {
     [SerializeField] private RollableObject rollingObject;
-    [SerializeField] private DissapearPedestal pedestal;
+    [SerializeField] private PedestalInteraction pedestal;
     [SerializeField] private bool isActive;
 
     public void StartRolling()
